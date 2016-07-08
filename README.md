@@ -72,5 +72,9 @@ Be smart about making changes to your Battleye (BE) filters. Backup whatever fil
       Do you want to provision the new file (55 lines)? (yes/no): yes
       Provisioning new filters: COMPLETE</code>
 
+#Default Output
+Default output is gained by executing the script without a third paramater. The output will will mirror the example above but the user will not be prompted to confirm changes and no changes will be made.
+
 #Optional Parameters
 You may elect to use the additional third paramater of (-m) to enable modification. When using this parameter you will be promted as in the example above to confirm whenther or not you want to provision (add) the changes suggested by the script or not. <b>If you answer yes, if you confirm the addition of the changes, the existing file will be over-written without further prompts or confirmation.</b>
+
