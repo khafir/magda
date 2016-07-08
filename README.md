@@ -82,4 +82,4 @@ You may elect to use the additional third paramater of (-m) to enable modificati
 In the example above you will see the following line of text near the top:
 <code><br>[FILTER SKIPPED]  playableUnits: Skipped due to anomalous filter syntax.</code>
 
-There is a condition where a filter will have an embedded '!=' within the construct. Due to the nature of how the script parses the filter file the script will skip comparrison and adding logic for lines where this condition is present. Should this circumstance arise, you will need to look at the new filter file, capture the filters for that particular filter keyword, and transfer them as appropriate to your existing BE filter file.
+There is a condition where a filter will have an embedded '!=' within the construct. Due to the nature of how the script parses the filter file the script will skip comparrison and addition logic for lines where this condition is present. Should this circumstance arise, you will need to look at the new filter file, capture the filters for that particular filter keyword, and transfer them as appropriate to your existing BE filter file.
