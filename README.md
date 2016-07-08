@@ -66,8 +66,8 @@ Be smart about making changes to your Battleye (BE) filters. Backup whatever fil
                 "Ammo Activated"              0              0              0
            "     +             "              0              0              0
 
-                       TOTALS:             85             61             24
-
-Do you want to provision the new file (55 lines)? (yes/no): yes
-Provisioning new filters: COMPLETE
+                         TOTALS:             85             61             24
+                       
+      Do you want to provision the new file (55 lines)? (yes/no): yes
+      Provisioning new filters: COMPLETE
 </code>
