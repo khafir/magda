@@ -11,6 +11,6 @@ Be smart about making changes to your Battleye (BE) filters. Backup whatever fil
 
 #Execution Syntax
 <code>./magda.pl</code><br>
-<code>usage: ./magda.pl $direct_path_to_exising_BE_filter $direct_path_to_new_BE_filter</code><br>
-<code>example: ./magda.pl /home/steam/steamcmd/arma3/battleye/scripts.txt /home/steam/steamcmd/arma3/newBEfilters/scripts.txt</code><br>
-<code>example: ./magda.pl /home/steam/steamcmd/arma3/battleye/scripts.txt /home/steam/steamcmd/arma3/newBEfilters/scripts.txt -m</code><br>
+<code>usage: ./magda.pl $direct_path_to_exising_BE_filter_file $direct_path_to_new_BE_filter_file</code><br>
+<code>example: ./magda.pl ./battleye/scripts.txt ./newBEfilters/scripts.txt</code><br>
+<code>example: ./magda.pl ./battleye/scripts.txt ./newBEfilters/scripts.txt -m</code><br>
