@@ -12,8 +12,9 @@ Be smart about making changes to your Battleye (BE) filters. Backup whatever fil
 #Execution Syntax
 <code>./magda.pl</code><br>
 <code>usage: ./magda.pl $direct_path_to_exising_BE_filter_file $direct_path_to_new_BE_filter_file</code><br>
-<code>example: ./magda.pl ./battleye/scripts.txt ./newBEfilters/scripts.txt</code><br>
 <code>example: ./magda.pl ./battleye/scripts.txt ./newBEfilters/scripts.txt -m</code><br>
+<code>example: ./magda.pl ./battleye/scripts.txt ./newBEfilters/scripts.txt</code><br>
+
 
 #Example Output
 <code>
