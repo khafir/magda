@@ -24,7 +24,7 @@ Be smart about making changes to your Battleye (BE) filters. Backup whatever fil
                        New Filter: /home/steam/steamcmd/arma3/newBEfilters/scripts.txt
             New Filter Line Count: 37
 
-  [FILTER SKIPPED]  playableUnits: Skipped due to anomalous filter syntax.
+  \[FILTER SKIPPED\]  playableUnits: Skipped due to anomalous filter syntax.
 
 
                               #############################################
@@ -64,9 +64,9 @@ Be smart about making changes to your Battleye (BE) filters. Backup whatever fil
                     hideObject              4              2              2
           disableCollisionWith              5              4              1
                   _allocMemory              1              1              0
-  "!(isNil \"FN_infiSTAR_C\")"              0              0              0
+  \"!(isNil \"FN_infiSTAR_C\")"              0              0              0
               "Ammo Activated"              0              0              0
-         "     +             "              0              0              0
+         \"     +             "              0              0              0
 
                        TOTALS:             85             61             24
 
