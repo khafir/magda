@@ -19,54 +19,52 @@ Be smart about making changes to your Battleye (BE) filters. Backup whatever fil
 <code>
 ./magda.pl ./battleye/scripts.txt ./newBEfilters/scripts.txt -m
 
-                  Existing Filter: /home/steam/steamcmd/arma3/battleye/scripts.txt
-       Existing Filter Line Count: 55
-                       New Filter: /home/steam/steamcmd/arma3/newBEfilters/scripts.txt
-            New Filter Line Count: 37
+                    Existing Filter: /home/steam/steamcmd/arma3/battleye/scripts.txt
+         Existing Filter Line Count: 55
+                         New Filter: /home/steam/steamcmd/arma3/newBEfilters/scripts.txt
+              New Filter Line Count: 37  
+    [FILTER SKIPPED]  playableUnits: Skipped due to anomalous filter syntax.
 
-  \[FILTER SKIPPED\]  playableUnits: Skipped due to anomalous filter syntax.
+                                #############################################
+                                #           NEW FILTER COMPARRISON          #
+                                #############################################
 
-
-                              #############################################
-                              #           NEW FILTER COMPARRISON          #
-                              #############################################
-
-                          Rule        Records        Matched    Not-Matched
-                    createUnit              1              1              0
-                    createTeam              0              0              0
-                   createAgent              2              0              2
-                 callExtension              0              0              0
-            showCommandingMenu              3              0              3
-      setUnitRecoilCoefficient              1              0              1
-        setWeaponReloadingTime              3              1              2
-                    drawline3d              1              0              1
-                   onEachFrame              1              1              0
-              onMapSingleClick              1              1              0
-                      loadFile              0              0              0
-                  createMarker              5              5              0
-             createVehicleCrew              0              0              0
-             deleteVehicleCrew              3              3              0
-             allMissionObjects             10              8              2
-                       setAmmo              3              3              0
-                    setDammage              0              0              0
-                     setDamage             10              7              3
-                  allVariables              3              1              2
-                    allPlayers             10              7              3
-                      allUnits              2              2              0
-                      entities             10             10              0
-                     allGroups              1              1              0
-                     camCreate              5              3              2
-                  selectCamera              0              0              0
-          removeMPEventHandler              0              0              0
-      removeAllMPEventHandlers              0              0              0
-               nearestBuilding              0              0              0
-                  addGroupIcon              0              0              0
-                    hideObject              4              2              2
-          disableCollisionWith              5              4              1
-                  _allocMemory              1              1              0
-  \"!(isNil \"FN_infiSTAR_C\")"              0              0              0
-              "Ammo Activated"              0              0              0
-         \"     +             "              0              0              0
+                            Rule        Records        Matched    Not-Matched
+                      createUnit              1              1              0
+                      createTeam              0              0              0
+                     createAgent              2              0              2
+                   callExtension              0              0              0
+              showCommandingMenu              3              0              3
+        setUnitRecoilCoefficient              1              0              1
+          setWeaponReloadingTime              3              1              2
+                      drawline3d              1              0              1
+                     onEachFrame              1              1              0
+                onMapSingleClick              1              1              0
+                        loadFile              0              0              0
+                    createMarker              5              5              0
+               createVehicleCrew              0              0              0
+               deleteVehicleCrew              3              3              0
+               allMissionObjects             10              8              2
+                         setAmmo              3              3              0
+                      setDammage              0              0              0
+                       setDamage             10              7              3
+                    allVariables              3              1              2
+                      allPlayers             10              7              3
+                        allUnits              2              2              0
+                        entities             10             10              0
+                       allGroups              1              1              0
+                       camCreate              5              3              2
+                    selectCamera              0              0              0
+            removeMPEventHandler              0              0              0
+        removeAllMPEventHandlers              0              0              0
+                 nearestBuilding              0              0              0
+                    addGroupIcon              0              0              0
+                      hideObject              4              2              2
+            disableCollisionWith              5              4              1
+                    _allocMemory              1              1              0
+    "!(isNil \"FN_infiSTAR_C\")"              0              0              0
+                "Ammo Activated"              0              0              0
+           "     +             "              0              0              0
 
                        TOTALS:             85             61             24
 
