@@ -67,7 +67,7 @@ foreach my $nline (@n_raw)
 		}
 		$data_parsed_ct = scalar(@data_parsed);
 	}
-	my @found = grep(/7\s$key/,@e_raw);
+	my @found = grep(/7\s\Q$key\E/,@e_raw);
 	foreach my $nfilter (@data_parsed)
 	{
 		if ($found[0] =~ m/\Q$nfilter\E/)
