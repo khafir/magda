@@ -85,3 +85,6 @@ In the example above you will see the following line of text near the top:
 There is a condition where a filter will have an embedded '!=' within the construct. Due to the nature of how the script parses the filter file the script will skip comparrison and addition logic for lines where this condition is present. Should this circumstance arise, you will need to look at the new filter file, capture the filters for that particular filter keyword, and transfer them as appropriate to your existing BE filter file.
 
 Of further note regarding the quality and organization of the code; I know this code is not stuctured in the most efficient manner but it is functional as I've tested it. My goal was to have this script completed in advance of the Apex release, further updates will feature a code cleanup and possibly additional features.
+
+#Change Log
+v1.1  12-JUL-2016 Updated line parsing logic to reflect changes with 'Potato' format entries for battleye/scripts.txt
